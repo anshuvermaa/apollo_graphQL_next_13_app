@@ -35,9 +35,9 @@ export const Novels = () => {
 			</p>
 		);
 	if (error)
-		return (
+		return (       
 			<p className="text-white flex items-center justify-center">
-				Oops! Something went wrong ....
+		{`${error}`}		Oops! Something went wrong ....
 			</p>
 		);
 
